@@ -11,7 +11,7 @@ set -g base-index 1
 setw -g pane-base-index 1
 
 # Allow passthrough for vim-tmux-navigator to work
-set-option -g allow-passthrough all
+set-option -g allow-passthrough on
 
 # Use h, j, k, l for movement between panes.
 bind h select-pane -L
