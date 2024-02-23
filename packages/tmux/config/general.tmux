@@ -20,7 +20,7 @@ bind k select-pane -U
 bind l select-pane -R
 
 # Fix colors being wrong in programs like Neovim.
-set-option -ga terminal-overrides ",xterm-256color:Tc"
+set-option -sa terminal-features "foot:RGB,wezterm:RGB,kitty:RGB,xterm-256color:RGB"
 
 # Expand the left status to accomodate longer session names.
 set-option -g status-left-length 100
