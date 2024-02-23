@@ -22,6 +22,9 @@ bind l select-pane -R
 # Fix colors being wrong in programs like Neovim.
 set-option -sa terminal-features "foot:RGB,wezterm:RGB,kitty:RGB,xterm-256color:RGB"
 
+# Fix autoread not working
+set-option -g focus-events on
+
 # Expand the left status to accomodate longer session names.
 set-option -g status-left-length 100
 set-option -g status-right-length 100
